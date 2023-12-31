@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: url('./amin1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.countdown-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Background color with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle box shadow */
+    color: white;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color:black;
+    font-weight: bolder;
+}
+
+
+#countdown {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+#revealButton {
+    padding: 10px;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+.hidden {
+    display: none;
+}
+
+/* Add this style to the CSS */
+.clock {
+    background: url('./09-53-16-104_512.gif') no-repeat center center;
+    background-size: cover;
+    width: 100px; /* Adjust the width and height based on your GIF size */
+    height: 100px;
+    margin: 20px auto;
+    animation: spin 1s infinite linear; /* You can customize the animation */
+}
+
+/* Add this style to the CSS */
+#fireworks {
+    background: url('./CLIPLY_372109170_FREE_FIREWORKS_400.gif') no-repeat center center;
+    background-size: cover;
+    width: 300px; /* Adjust the width and height based on your fireworks animation size */
+    height: 300px;
+    margin: 20px auto;
+    animation: explode 5s forwards; /* You can customize the animation duration */
+}
+
+@keyframes explode {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
